@@ -1,0 +1,35 @@
+#logo {
+    
+}
+
+input {
+    border: none ;
+    border-bottom: 1px solid #b6b9b9;
+    padding: 2%;
+}
+
+.Button {
+    background: #3a4ce1;
+    color: #fff;
+    
+    font-size: 13px;
+    letter-spacing: .54px;
+    text-transform: uppercase;
+    
+    padding: 17px 60px 18px 20px;
+    
+    text-decoration: none!important;
+    cursor: pointer;
+    width: auto;
+    position: relative;
+}
+button {
+    border-radius: 100px;
+    margin: 5% 5% 5% 0;
+    padding: 17px 60px 18px 20px;
+    width: auto;
+    position: relative;
+    font-weight: 400;
+    color: #fff;
+    
+}
