@@ -1,29 +1,40 @@
 #logo {
-    
+    width: 12%;
+    margin-bottom: 5%;
 }
 
 input {
     border: none ;
+    width: 510px;
     border-bottom: 1px solid #b6b9b9;
-    padding: 2%;
+    padding: 5% 2% 2% 2%;
+    
 }
-
-.Button {
-    background: #3a4ce1;
-    color: #fff;
+body {
+   padding: 5% 15% 0 15%;
+}
+.center {
+    text-align: center;
+    border-bottom: 1px solid #3C52DD;
+    padding: 3%;
+    color: #909090;
+}
+#register{
+    margin-right: 9%;
+    margin-left: 3%;
+}
+::-webkit-input-placeholder {
+    color: #C8C8C8;
+}
+p {
+    color: #909090;
     
-    font-size: 13px;
-    letter-spacing: .54px;
-    text-transform: uppercase;
-    
-    padding: 17px 60px 18px 20px;
-    
-    text-decoration: none!important;
-    cursor: pointer;
-    width: auto;
-    position: relative;
+}
+form {
+    margin-top: 7%;
 }
 button {
+    background: #3B5998;
     border-radius: 100px;
     margin: 5% 5% 5% 0;
     padding: 17px 60px 18px 20px;
@@ -31,5 +42,22 @@ button {
     position: relative;
     font-weight: 400;
     color: #fff;
-    
+    border-style: none;
+}
+.side {
+    margin-top: 10%;
+}
+#fade  {
+    background: #C4CAF6;
+}
+#red {
+    background: #DD4B39;
+}
+button #arrow {
+    width: 20%;
+    margin-left: 20%;
+    margin-right: -15%;   
+}
+#login {
+    border-bottom: 1px solid #C8C8C8;
 }
