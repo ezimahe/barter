@@ -3,11 +3,11 @@
     margin-bottom: 5%;
 }
 
-input {
+.form-control {
     border: none ;
-    width: 510px;
     border-bottom: 1px solid #b6b9b9;
-    padding: 5% 2% 2% 2%;
+    padding: 3% 2% 2% 2%;
+    border-radius: unset;
     
 }
 body {
@@ -37,7 +37,7 @@ button {
     background: #3B5998;
     border-radius: 100px;
     margin: 5% 5% 5% 0;
-    padding: 17px 60px 18px 20px;
+    padding: 3% 10% 3% 5%;
     width: auto;
     position: relative;
     font-weight: 400;
@@ -53,11 +53,11 @@ button {
 #red {
     background: #DD4B39;
 }
-button #arrow {
-    width: 20%;
-    margin-left: 20%;
-    margin-right: -15%;   
-}
 #login {
-    border-bottom: 1px solid #C8C8C8;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#arrow {
+    margin-right: -10%;
+    
 }
